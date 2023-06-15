@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.ipsum{
+    width: 100px;
+    font-weight: bolder;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;margin: 15px ;
+}
+.services{
+    display: flex;
+    align-content: center;
+    gap: 30px;
+    margin-right: 40px;
+}
+.sub-ser > a {
+    color: black;
+    text-decoration: none;
+    gap: 30px;
+    font-size: 10px;
+    font-weight: 500;
+     margin-left: 30px;
+}
+.TALK{
+    padding: 5px 25px;
+    color: white;
+    background-color: rgba(51, 7, 80, 0.733);
+    font-weight: 500px;
+    font-size: 10px;
+    border: none;
+}
+.sub-lorem{
+    background-color: rgba(169, 165, 229, 0.331);
+    height: 350px;
+    text-align: center;
+    padding-top: 80px;
+    border: none;
+}
+.more{
+    padding: 5px 20px;
+    color: white;
+    background-color: rgba(51, 7, 80, 0.733);
+    font-weight: 500px;
+    font-size: 10px;
+    border: none;
+}
+.provide{
+    width: 80%;
+    margin: auto;
+    /* margin: 10px ; */
+
+}
+.provide > h1 {
+    margin: 40px;
+    font-weight: 1000px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.provide-con{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px 15px;
+    width: 950px;
+    margin-left: 20px;
+
+}
+.lor{
+    background-color: rgba(171, 116, 94, 0.304);
+    padding: 15px;
+    border-radius: 5px;
+    /* width: 400px; */
+}
+.lor > p {
+    font-size: 15px;
+    font-weight: 500px;
+}
+.play{
+    display: flex;
+    gap: 20px;
+    font-weight: 1000px;
+    font-size: 15px;
+}
+.plays{
+    color: goldenrod;
+    font-size: smaller;
+}
+.sect{
+    /* width: 80%; */
+    margin-top: 20px;
+    background-color: rgba(220, 217, 217, 0.393);
+    height: 750px;
+
+}
+.sect-con{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    width: 95%;
+    padding: 50px 0;
+
+}
+.note{
+    /* margin-left: 40px; */
+    width: 450px;
+    height: 250px;
+}
+.rem{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 1000px;
+    padding: 10px;
+    margin-left: 30px;
+    
+}
+.rem > h3 {
+    padding-bottom: 10px;
+}
+.read{
+    padding: 5px 25px;
+    color: white;
+    background-color: rgba(51, 7, 80, 0.733);
+    font-weight: 500px;
+    font-size: 10px;
+}
+.letter{
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
+    padding-top: 40px;
+    height: 250px;
+    text-align: center;
+}
+#em{
+    width: 500px;
+    padding: 5px;
+    font-size: 10px;
+}
+.mor{
+    padding: 5px 30px;
+    color: white;
+    background-color: rgba(174, 98, 225, 0.393);
+    font-weight: 500px;
+    font-size: 10px;
+    border: none;
+}
