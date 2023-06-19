@@ -10,11 +10,12 @@
 nav {
     display: flex;
     justify-content: space-around;
-    align-content: center;margin: 15px ;
+    /* align-content: center; */
+    margin: 15px ;
 }
 .services{
     display: flex;
-    align-content: center;
+    /* align-content: center; */
     gap: 30px;
     margin-right: 40px;
 }
@@ -171,18 +172,23 @@ nav {
 }
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding-top: 50px;
     padding-bottom: 10px;
 }
 .pc > a {
     font-size: 15px;
+    margin-right: 250px;
     color: black;
+}
+.sbm{
+    margin-right: 600px;
 }
 .sbm > i {
     border: 1px solid black;
-    padding: 4px;
+    padding: 2px;
     background-color: rgba(0, 0, 0, 0.801);
      color: white;
+     /* margin-right: 100px; */
 }
 
